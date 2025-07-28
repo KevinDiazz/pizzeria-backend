@@ -50,4 +50,4 @@ app.delete("/api/pizzas/:id", (req, res) => {
   res.status(200).json({ message: "pizza eliminada" });
 });
 
-app.listen({PORT}, "0.0.0.0", () => console.log(`Server on ${PORT}`));
+app.listen(PORT, "0.0.0.0", () => console.log(`Server on ${PORT}`));
